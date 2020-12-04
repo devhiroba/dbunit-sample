@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+    oracle:
+      container_name: oracle11g
+      image: "jaspeen/oracle-xe-11g"
+      ports:
+        - "1521:1521"
